@@ -1,6 +1,6 @@
 <?php
 
-namespace Leandrocfe\FilamentApexCharts\Widgets;
+namespace Happones\FilamentApexCharts\Widgets;
 
 use Filament\Forms\Contracts\HasForms;
 use Filament\Support\RawJs;
@@ -8,13 +8,13 @@ use Filament\Widgets\Concerns\CanPoll;
 use Filament\Widgets\Widget;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;
-use Leandrocfe\FilamentApexCharts\Concerns\CanDeferLoading;
-use Leandrocfe\FilamentApexCharts\Concerns\CanFilter;
-use Leandrocfe\FilamentApexCharts\Concerns\HasContentHeight;
-use Leandrocfe\FilamentApexCharts\Concerns\HasDarkMode;
-use Leandrocfe\FilamentApexCharts\Concerns\HasFooter;
-use Leandrocfe\FilamentApexCharts\Concerns\HasHeader;
-use Leandrocfe\FilamentApexCharts\Concerns\HasLoadingIndicator;
+use Happones\FilamentApexCharts\Concerns\CanDeferLoading;
+use Happones\FilamentApexCharts\Concerns\CanFilter;
+use Happones\FilamentApexCharts\Concerns\HasContentHeight;
+use Happones\FilamentApexCharts\Concerns\HasDarkMode;
+use Happones\FilamentApexCharts\Concerns\HasFooter;
+use Happones\FilamentApexCharts\Concerns\HasHeader;
+use Happones\FilamentApexCharts\Concerns\HasLoadingIndicator;
 
 class ApexChartWidget extends Widget implements HasForms
 {

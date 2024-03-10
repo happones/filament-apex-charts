@@ -1,11 +1,11 @@
 <?php
 
-namespace Leandrocfe\FilamentApexCharts;
+namespace Happones\FilamentApexCharts;
 
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Facades\FilamentAsset;
 use Illuminate\Support\Facades\Blade;
-use Leandrocfe\FilamentApexCharts\Commands\FilamentApexChartsCommand;
+use Happones\FilamentApexCharts\Commands\FilamentApexChartsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -41,7 +41,7 @@ class FilamentApexChartsServiceProvider extends PackageServiceProvider
     public function packageBooted(): void
     {
         parent::packageBooted();
-        Blade::componentNamespace('Leandrocfe\\FilamentApexCharts\\Components', 'filament-apex-charts');
+        Blade::componentNamespace('Happones\\FilamentApexCharts\\Components', 'filament-apex-charts');
 
         FilamentAsset::register([
             AlpineComponent::make('apexcharts', __DIR__.'/../dist/apexcharts.js'),

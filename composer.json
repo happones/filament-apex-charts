@@ -37,12 +37,12 @@
     },
     "autoload": {
         "psr-4": {
-            "happones\\FilamentApexCharts\\": "src"
+            "Happones\\FilamentApexCharts\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "happones\\FilamentApexCharts\\Tests\\": "tests"
+            "Happones\\FilamentApexCharts\\Tests\\": "tests"
         }
     },
     "scripts": {

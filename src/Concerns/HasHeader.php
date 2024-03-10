@@ -1,6 +1,6 @@
 <?php
 
-namespace Leandrocfe\FilamentApexCharts\Concerns;
+namespace Happones\FilamentApexCharts\Concerns;
 
 trait HasHeader
 {

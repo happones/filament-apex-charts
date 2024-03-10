@@ -1,6 +1,6 @@
 <?php
 
-namespace Leandrocfe\FilamentApexCharts\Commands;
+namespace Happones\FilamentApexCharts\Commands;
 
 use Filament\Facades\Filament;
 use Filament\Panel;

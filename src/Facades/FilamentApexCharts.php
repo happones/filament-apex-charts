@@ -1,16 +1,16 @@
 <?php
 
-namespace Leandrocfe\FilamentApexCharts\Facades;
+namespace Happones\FilamentApexCharts\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Leandrocfe\FilamentApexCharts\FilamentApexCharts
+ * @see \Happones\FilamentApexCharts\FilamentApexCharts
  */
 class FilamentApexCharts extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Leandrocfe\FilamentApexCharts\FilamentApexCharts::class;
+        return \Happones\FilamentApexCharts\FilamentApexCharts::class;
     }
 }

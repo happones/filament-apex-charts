@@ -1,6 +1,6 @@
 <?php
 
-namespace Leandrocfe\FilamentApexCharts\Concerns;
+namespace Happones\FilamentApexCharts\Concerns;
 
 use Filament\Forms\Concerns\InteractsWithForms;
 use Illuminate\Support\Arr;
